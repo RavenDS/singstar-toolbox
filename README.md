@@ -8,21 +8,23 @@ A Custom Disc Creator for Singstar PS2.
 ## Features
 - Re-encode all .txt with UTF-8 & fix line breaks
 - Audio normalization for consistent volume
+- Entirely rewritten TXT to XML converter
 - Create Medleys automatically
 - Pack & Unpack Singstar .PAK files
-- ISO is compatible with emulators & hardware *(tested on PCSX2 and PS3)*
+- ISO is compatible with emulators & real hardware *(tested on PCSX2 and PS3)*
 
 ## To-Do List & Limitations
 *The current limitations and to-do list will evolve as the tool is being worked on.*
 
+- <b>Duet (2 players singing at different times) is currently broken, never was compatible with the old Singstar Creator. This will be fixed soon. Avoid .TXTs marked as [MULTI].</b>
+- A few videos (6 out of 120 during testing) freeze on the first frame after conversion. Use another input video if needed. Audio playback & lyrics are not affected.
+- MP3s with extremely low bitrates (64-32kbps) may have issues during the resampling process. 
 - *TODO:* Reverse-engineer newer Singstar versions for Rap support
-- *TODO:* Entirely rewrite the TXT2XML converter to accomodate for Rap notes and multiple singers *(Duet)*
+- *TODO:* Finish rewriting the TXT2XML converter to accomodate for Rap notes and multiple singers *(Duet)*
 - *TODO:* Multiple language support (currently only English)
 - *TODO:* Rewrite the BMP to TX2 algorithm for better image quality
 - *TODO:* Improve the audio conversion algorithm to get rid of MFAudio
 - *TODO:* Let user customize Intros, Logos, Menu Music..
-- A few videos (6 out of 120 during testing) freeze on the first frame after conversion. Use another input video if needed. Audio & lyrics playback are not affected.
-- MP3s with extremely low bitrates (64-32kbps) may have issues during the resampling process. 
 
 ## Credits
 *Singstar Toolbox is partially based on the ancient Singstar Creator V3, which included several tools whose authors were not named.*
