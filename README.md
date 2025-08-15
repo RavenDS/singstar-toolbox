@@ -1,10 +1,12 @@
 # Singstar PS2 Toolbox
-A Custom Disc Creator for Singstar PS2. 
+A Custom Disc Creator for Singstar PS2. Convert your favorite UltraStar songs into your own Singstar game!
+
+<img src="Singstar-Toolbox-1.1.png" width=50% height=50%>
 
 ## Setup
-##### Download the latest version of ffmpeg.exe <a href="https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-full.7z">(direct link for Win10)</a> and place it in the same folder as Singstar Toolbox.
-##### RavenXML converter is selected by default. If lyrics are not converting properly, you can try switching to the deprecated TXT2XML from the 'XML converter' tab.
-##### After the initial setup, <u>DO NOT</u> move or edit any files in /tools/ folder, as this will lead to malfunctions & data corruption.
+- #### Download the latest version of ffmpeg.exe <a href="https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-full.7z">(direct link for Win10)</a> and place it in the same folder as Singstar Toolbox.
+- #### RavenXML converter is selected by default. If lyrics are not converting properly, you can try switching to the deprecated TXT2XML from the 'XML converter' tab.
+- #### After the initial setup, <u>DO NOT</u> move or edit any files in /tools/ folder, as this will lead to malfunctions & data corruption.
 
 ## Features
 - Re-encode all .txt with UTF-8 & fix line breaks
@@ -13,6 +15,9 @@ A Custom Disc Creator for Singstar PS2.
 - Create Medleys automatically
 - Pack & Unpack Singstar .PAK files
 - ISO is compatible with emulators & real hardware *(tested on PCSX2 and PS3)*
+
+## Requirements
+- .NET 8.0 Desktop Runtime
 
 ## To-Do List & Limitations
 *The current limitations and to-do list will evolve as the tool is being worked on.*<br />
