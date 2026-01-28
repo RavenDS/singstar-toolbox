@@ -1,45 +1,63 @@
-# Singstar PS2 Toolbox
-A Custom Disc Creator for Singstar PS2. Convert your favorite UltraStar songs into your own Singstar game!
+# SingStar PS2 Toolbox
+A Custom Disc Creator for SingStar. Create custom SingStar discs with your own songs!
+
+Every external tool used by [SingStar Creator v3](https://github.com/weathondev/SingstarCreatorTutorial) has been entirely rewritten in VB.Net.
 
 <img src="Singstar-Toolbox-1.1.png" width=50% height=50%>
 
-## Setup
-- #### Download the latest version of ffmpeg.exe <a href="https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-full.7z">(direct link for Win10)</a> and place it in the same folder as Singstar Toolbox.
-- #### RavenXML converter is selected by default. If lyrics are not converting properly, you can try switching to the deprecated TXT2XML from the 'XML converter' tab.
-- #### After the initial setup, <u>DO NOT</u> move or edit any files in /tools/ folder, as this will lead to malfunctions & data corruption.
+### Main Features
+- Import & convert [Performous](https://github.com/performous/performous)/UltraStar songs (txt)
+- Convert audio & video to proprietary SingStar format (IPU + MIB)
+- Export songs from other SingStar discs to use in your own
+- Build an ISO compatible with emulators & real hardware (PS2/PS3)
 
-## Features
-- Re-encode all .txt with UTF-8 & fix line breaks
+### QoL Features
+- No external tools (apart from ffmpeg)
+- M2V to IPU converter (no SDK needed)
 - Audio normalization for consistent volume
 - Entirely rewritten TXT to XML converter
-- Create Medleys automatically
-- Pack & Unpack Singstar .PAK files
-- ISO is compatible with emulators & real hardware *(tested on PCSX2 and PS3)*
+- Support for regular, duet, rap songs
+- Fix text encoding automatically
 
-## Requirements
+### Setup & Requirements
+- #### Download the latest version of ffmpeg.exe <a href="https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-full.7z">(direct link for Win10)</a> and place it in the same folder as Singstar Toolbox.
 - .NET 8.0 Desktop Runtime
 
-## To-Do List & Limitations
-*The current limitations and to-do list will evolve as the tool is being worked on.*<br />
-*TODOs are sorted by priority.*
-
-- A few videos (6 out of 120 during testing) freeze on the first frame after conversion. Use another input video if needed. Audio playback & lyrics are not affected.
-- MP3s with extremely low bitrates (64-32kbps) may have issues during the resampling process.
-- *TODO:* Optimize the TXT to XML converter to calculate better start times for medleys
-- *TODO:* Let users customize medleys
-- *TODO:* Multiple language support (currently only English)
-- *TODO:* Improve the audio conversion algorithm to get rid of MFAudio
-- *TODO:* Reverse-engineer newer Singstar versions for Rap support
-- *TODO:* Rewrite the BMP to TX2 algorithm for better artwork quality
-
-## Credits
-*Singstar Toolbox is partially based on the ancient Singstar Creator V3, which included several tools whose authors were not named.*
-
-- ffmpeg team for <a href="https://ffmpeg.org/">ffmpeg</a>
-- Raynê Games for <a href="https://residentevilmodding.boards.net/thread/17381/tool-dump-rebuild-ps2-iso">PS2 ISO Rebuilder</a>
-- Nethunter/Fulgore & Co. for BMP2TX2
-- Holger Kuhn (hawkear@gmx.de) for SDK2SS
-- Special thanks to @locastan for his help with Duet songs!
+# Roadmap 
+***Note:** Building a PS3 version disc is 70% done. PS2 ISOs can run on PS3 too.*
+### In progress
+- [ ] **GLOBAL:** Drag & Drop songs (TXT & SST2)
+- [ ] **GLOBAL:** Extract audio from video (for .TXTs with video only)
+- [ ] **GLOBAL:** Divide BPM & notes when BPM is too high
+- [ ] **GLOBAL:** yt-dlp support (for .TXTs with external videos)
+- [ ] **PS2:** Medley Editor
+- [ ] **PS2:** Edit boot logos (TGA support)
+- [ ] **PS2:** Support NTSC (IAV+IND)
+- [ ] **PS3:** Export/Build PS3 Data
+### Completed ([v1.2](https://github.com/RavenDS/singstar-toolbox/releases/latest))
+- [x] **GLOBAL:** Edit videos to include time gap
+- [x] **ISO:** ISO Rebuilding
+- [x] **PS3:** Global PS3 support (XML, video, audio, structure)
+- [x] **PS3:** Video/audio encoding (with ReplayGain)
+- [x] **PS2:** PAK file Unpacking/Repacking
+- [x] **PS2:** M2V to IPU conversion
+- [x] **PS2:** IPU swizzling
+- [x] **PS2:** 99% codec compatibility
+- [x] **PS2:** Audio Encode to ADPCM
+- [x] **PS2:** MIB + MIH export 
+- [x] **PS2:** BMP to TX2 + TX2 to BMP
+- [x] **PS2:** Import songs from other discs
+- [x] **PS2:** Edit/disable menu music
+- [x] **PS2:** Multiple Language support (English, French, German, Italian)
+# Credits
+- <a href="https://ffmpeg.org/">ffmpeg</a>
+- [DiscUtils.Iso9660](https://github.com/DiscUtils/DiscUtils)
+- [NAudio](https://github.com/naudio/NAudio)
+- [Ude.NetStandard](https://github.com/errepi/ude)
+- [nQuant](https://www.nuget.org/packages/nQuant)
+- [ss_cover.cc](https://github.com/performous/performous-tools/blob/master/ss_cover.cc) *(TX2 to BMP conversion)* 
+- Holger Kuhn (hawkear@gmx.de) for his work on SingStar overall
+- Special thanks to @locastan for his help
 
 ## Notes
-It is possible to add more than 60 songs to a single disc, however the game might crash because of the excessive amount of artworks in menu. 
+It is possible to add more than 100 songs to a single disc, however it might cause unexpected behaviour in-game. 
