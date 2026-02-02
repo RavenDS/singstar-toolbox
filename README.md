@@ -33,7 +33,9 @@ Every external tool used by [SingStar Creator v3](https://github.com/weathondev/
 - [ ] **PS2:** Medley Editor
 - [ ] **PS2:** Edit boot logos (TGA support)
 - [ ] **PS2:** Support NTSC (IAV+IND)
-- [ ] **PS3:** Export/Build PS3 Data
+- [x] **GLOBAL:** Convert PS2 songs to PS3
+- [x] **PS3:** PS3 Full Support
+- [x] **PS3:** Export/Build PS3 Data
 ### Completed ([v1.2](https://github.com/RavenDS/singstar-toolbox/releases/latest))
 - [x] **GLOBAL:** Edit videos to include time gap
 - [x] **ISO:** ISO Rebuilding
