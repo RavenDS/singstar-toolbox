@@ -24,18 +24,23 @@ Every external tool used by [SingStar Creator v3](https://github.com/weathondev/
 - .NET 8.0 Desktop Runtime
 
 # Roadmap 
-***Note:** Building a PS3 version disc is 70% done. PS2 ISOs can run on PS3 too.*
+***Note:** Building a PS3 song library is 100% done, coming in v1.3.*
 ### In progress
 - [ ] **GLOBAL:** Drag & Drop songs (TXT & SST2)
-- [ ] **GLOBAL:** Extract audio from video (for .TXTs with video only)
 - [ ] **GLOBAL:** Divide BPM & notes when BPM is too high
 - [ ] **GLOBAL:** yt-dlp support (for .TXTs with external videos)
 - [ ] **PS2:** Medley Editor
 - [ ] **PS2:** Edit boot logos (TGA support)
 - [ ] **PS2:** Support NTSC (IAV+IND)
+- [x] **GLOBAL:** Extract audio from video (for .TXTs with video only)
 - [x] **GLOBAL:** Convert PS2 songs to PS3
+- [x] **GLOBAL:** Convert PS3 multi-channel audio to stereo for PS2 (no loss)
+- [x] **GLOBAL:** Convert PS3 songs to PS2
+- [x] **PS3:** Auto-decrypt supported ISOs when needed
+- [x] **PS3:** NTSC video support
 - [x] **PS3:** PS3 Full Support
 - [x] **PS3:** Export/Build PS3 Data
+- [x] **PS3:** Update existing song library via FTP
 ### Completed ([v1.2](https://github.com/RavenDS/singstar-toolbox/releases/latest))
 - [x] **GLOBAL:** Edit videos to include time gap
 - [x] **ISO:** ISO Rebuilding
