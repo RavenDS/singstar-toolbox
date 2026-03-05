@@ -26,12 +26,10 @@ Every external tool used by [SingStar Creator v3](https://github.com/weathondev/
 # Roadmap 
 ***Note:** Building a PS3 song library is 100% done, coming in v1.3.*
 ### In progress
-- [ ] **GLOBAL:** Drag & Drop songs (TXT & SST2)
-- [ ] **GLOBAL:** Divide BPM & notes when BPM is too high
-- [ ] **GLOBAL:** yt-dlp support (for .TXTs with external videos)
-- [ ] **PS2:** Medley Editor
-- [ ] **PS2:** Edit boot logos (TGA support)
 - [ ] **PS2:** Support NTSC (IAV+IND)
+- [ ] **GLOBAL:** Divide BPM & notes when BPM is too high
+- [ ] **GLOBAL:** Medley Editor
+- [x] **GLOBAL:** Drag & Drop songs (TXT & SST2)
 - [x] **GLOBAL:** Extract audio from video (for .TXTs with video only)
 - [x] **GLOBAL:** Convert PS2 songs to PS3
 - [x] **GLOBAL:** Convert PS3 multi-channel audio to stereo for PS2 (no loss)
@@ -56,6 +54,9 @@ Every external tool used by [SingStar Creator v3](https://github.com/weathondev/
 - [x] **PS2:** Import songs from other discs
 - [x] **PS2:** Edit/disable menu music
 - [x] **PS2:** Multiple Language support (English, French, German, Italian)
+### Scrapped/Cancelled
+- **yt-dlp support:** Many UltraStar managers already handle this
+- **Edit PS2 boot logos:** Users can edit that from DiscData folder
 # Credits
 - <a href="https://ffmpeg.org/">ffmpeg</a>
 - [DiscUtils.Iso9660](https://github.com/DiscUtils/DiscUtils)
@@ -64,7 +65,7 @@ Every external tool used by [SingStar Creator v3](https://github.com/weathondev/
 - [nQuant](https://www.nuget.org/packages/nQuant)
 - [ss_cover.cc](https://github.com/performous/performous-tools/blob/master/ss_cover.cc) *(TX2 to BMP conversion)* 
 - Holger Kuhn (hawkear@gmx.de) for his work on SingStar overall
-- Special thanks to @locastan for his help
+- Special thanks to [@locastan](https://github.com/locastan) for his help
 
 ## Notes
 It is possible to add more than 100 songs to a single disc, however it might cause unexpected behaviour in-game. 
