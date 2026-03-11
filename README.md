@@ -1,7 +1,7 @@
-# SingStar PS2 Toolbox
+# SingStar Toolbox
 A Custom Disc Creator for SingStar. Create custom SingStar discs with your own songs!
 
-Every external tool used by [SingStar Creator v3](https://github.com/weathondev/SingstarCreatorTutorial) has been entirely rewritten in VB.Net.
+Fixes all bugs and inconsistencies from [SingStar Creator v3](https://github.com/weathondev/SingstarCreatorTutorial), uses homemade converters and modules instead of stolen PS2 SDK like SCV does.
 
 <img src="Singstar-Toolbox-1.1.png" width=50% height=50%>
 
@@ -28,7 +28,6 @@ Every external tool used by [SingStar Creator v3](https://github.com/weathondev/
 ### In progress
 - [ ] **PS2:** Support NTSC (IAV+IND)
 - [ ] **GLOBAL:** Divide BPM & notes when BPM is too high
-- [ ] **GLOBAL:** Medley Editor
 - [x] **GLOBAL:** Drag & Drop songs (TXT & SST2)
 - [x] **GLOBAL:** Extract audio from video (for .TXTs with video only)
 - [x] **GLOBAL:** Convert PS2 songs to PS3
@@ -57,7 +56,9 @@ Every external tool used by [SingStar Creator v3](https://github.com/weathondev/
 ### Scrapped/Cancelled
 - **yt-dlp support:** Many UltraStar managers already handle this
 - **Edit PS2 boot logos:** Users can edit that from DiscData folder
+- **Medley Editor:** Would require a lot of user input. Not cancelled but very low priority.
 # Credits
+- Chris [(@christphen)](https://github.com/christphen) joined the project as a collaborator
 - <a href="https://ffmpeg.org/">ffmpeg</a>
 - [DiscUtils.Iso9660](https://github.com/DiscUtils/DiscUtils)
 - [NAudio](https://github.com/naudio/NAudio)
