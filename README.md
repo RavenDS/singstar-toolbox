@@ -1,7 +1,7 @@
 # SingStar Toolbox
 A Custom Disc Creator for SingStar. Create custom SingStar discs with your own songs!
 
-Fixes all bugs and inconsistencies from [SingStar Creator v3](https://github.com/weathondev/SingstarCreatorTutorial), uses homemade converters and modules instead of stolen PS2 SDK like SCV does.
+Fixes all bugs and inconsistencies from [SingStar Creator v3](https://github.com/weathondev/SingstarCreatorTutorial), uses **homemade converters and modules** instead of **stolen PS2 SDK** like SCv3 does.
 
 <img src="Singstar-Toolbox-1.1.png" width=50% height=50%>
 
