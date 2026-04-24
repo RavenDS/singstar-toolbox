@@ -3,6 +3,8 @@ A Custom Disc Creator for SingStar. Create custom SingStar discs with your own s
 
 Fixes all bugs and inconsistencies from [SingStar Creator v3](https://github.com/weathondev/SingstarCreatorTutorial), uses **homemade converters and modules** instead of **stolen PS2 SDK** like SCv3 does.
 
+[Check out the Wiki](https://github.com/RavenDS/singstar-toolbox/wiki) for more infos & guides.
+
 **Join the Discord server:** [https://discord.gg/jNet59FPVz](https://discord.gg/jNet59FPVz)
 
 <img src="Singstar-Toolbox-1.1.png" width=50% height=50%>
