@@ -29,10 +29,12 @@ Fixes all bugs and inconsistencies from [SingStar Creator v3](https://github.com
 
 # Roadmap 
 ### In progress
-- [ ] **PS2:** Support NTSC (IAV+IND)
+
 - [ ] **GLOBAL:** Divide BPM & notes when BPM is too high
 - [ ] **GLOBAL:** Drag & Drop songs (TXT & SST2)
-- [ ] **PS3:** Update existing song library via FTP
+- [x] **PS3:** Update existing song library via FTP
+- [x] **PS2:** Support NTSC (IAV+IND)
+
 ### Completed ([v1.3](https://github.com/RavenDS/singstar-toolbox/releases/latest))
 - [x] **GLOBAL:** Extract audio from video (for .TXTs with video only)
 - [x] **GLOBAL:** Convert PS2 songs to PS3
@@ -72,4 +74,5 @@ Fixes all bugs and inconsistencies from [SingStar Creator v3](https://github.com
 - Special thanks to [@locastan](https://github.com/locastan) for his help
 
 ## Notes
-It is possible to add more than 100 songs to a single disc, however it might cause unexpected behaviour in-game. PS3 isn't affected by this.
+It is possible to add more than 100 songs to a single disc, however it might cause unexpected behaviour in-game.
+<br />**PS3 isn't affected by this.**
