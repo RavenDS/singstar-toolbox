@@ -5,7 +5,7 @@ Fixes all bugs and inconsistencies from [SingStar Creator v3](https://github.com
 
 [Check out the Wiki](https://github.com/RavenDS/singstar-toolbox/wiki) for more infos & guides.
 
-**Join the Discord server:** [https://discord.gg/jNet59FPVz](https://discord.gg/jNet59FPVz)
+**Join the Discord server for help:** [https://discord.gg/jNet59FPVz](https://discord.gg/jNet59FPVz)
 
 <img src="Singstar-Toolbox-1.1.png" width=50% height=50%>
 
@@ -69,7 +69,9 @@ Fixes all bugs and inconsistencies from [SingStar Creator v3](https://github.com
 - [NAudio](https://github.com/naudio/NAudio)
 - [Ude.NetStandard](https://github.com/errepi/ude)
 - [nQuant](https://www.nuget.org/packages/nQuant)
-- [ss_cover.cc](https://github.com/performous/performous-tools/blob/master/ss_cover.cc) *(TX2 to BMP conversion)* 
+- [ss_cover.cc](https://github.com/performous/performous-tools/blob/master/ss_cover.cc) *(TX2 to BMP conversion)*
+- [scee-london](https://github.com/EdnessP/scee-london) *(PKD unpacking)*
+- [BouncyCastle](https://www.bouncycastle.org/download/bouncy-castle-c/) *(Whirlpool Hash)*
 - Holger Kuhn (hawkear@gmx.de) for his work on SingStar overall
 - Special thanks to [@locastan](https://github.com/locastan) for his help
 
