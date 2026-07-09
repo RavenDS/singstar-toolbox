@@ -37,9 +37,6 @@ Also includes tools for various formats used by SingStar games (**PAK, PKD, PKF,
 - [ ] **GLOBAL:** Auto-create Solo version from Duets
 - [ ] **GLOBAL:** Medley Editor
 - [x] **PS4:** Import songs from **SingStar PS4**
-- [x] **PS3:** Support **SingStar Dance** songs + dance feature
-- [x] **PS3:** Support latest UI (Ultimate Party/SingStar App)
-- [x] **PS3:** Support **SingStar App**
 
 
 ### Completed ([v1.5](https://github.com/RavenDS/singstar-toolbox/releases/latest))
@@ -52,6 +49,9 @@ Also includes tools for various formats used by SingStar games (**PAK, PKD, PKF,
 - [x] **GLOBAL:** Scale BPM & notes when BPM is too high
 - [x] **ISO:** ISO Rebuilding
 - [X] **PS3:** PS3 Full Support
+- [x] **PS3:** Support SingStar Dance songs + dance feature
+- [x] **PS3:** Support DLC
+- [x] **PS3:** Support latest UI (Ultimate Party/SingStar App)
 - [x] **PS3:** Export/Build PS3 Data
 - [x] **PS3:** Auto-decrypt supported ISOs when needed
 - [x] **PS3:** Update existing song library via FTP
